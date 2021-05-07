@@ -26,12 +26,8 @@ def print_pattern(choice):
         (____)
   ---.__(___)
   '''
-  if choice==0:
-    print(rock)
-  elif choice == 1:
-    print(paper)
-  else:
-    print(scissors)
+  game_images = [rock, paper, scissors]
+  print(game_images[choice])
   
 def result(n1,n2):
   if n1==n2:
